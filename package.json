@@ -1,18 +1,31 @@
 {
   "name": "cursor-react",
-  "version": "1.0.2",
-  "description": "cursor react js package :) ",
+  "version": "1.0.3",
+  "description": "cursor react js package.",
   "keywords": [
     "cursor",
-    "react"
+    "react",
+    "اشاره گر ماوس"
   ],
-  "author": "minoo tavakoli",
-  "license": "ISC",
+  "author": "minoo tavakoli <minootavakoli28@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MinooTavakoli/cursor-react/issues"
+  },
+  "homepage": "https://github.com/MinooTavakoli/cursor-react#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MinooTavakoli/cursor-react.git"
+  },
   "private": false,
   "main": "dist/index.js",
   "module": "dist/index.js",
   "typings": "index.d.ts",
-  "files": [ "dist", "README.md", "index.d.ts" ],
+  "files": [
+    "dist",
+    "README.md",
+    "index.d.ts"
+  ],
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
     "@testing-library/jest-dom": "^5.11.4",

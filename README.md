@@ -10,40 +10,34 @@
 
 ### Installation
 
-```
+```bash
 npm i cursor-react
 ```
 
 ## USE Cursor Package
 
-```
-import React from 'react';
+```js
+import React from "react";
 import Cursor from "cursor-react";
 
 import image from "./image.png";
 
-
-function App(){
-
-    return (
-        <div>
-            <Cursor
-                imageIcon={image}
-                size={40}
-            >
-                <div
-                    style={{
-                        height: "100px",
-                        backgroundColor: "blue"
-                    }}
-                >
-                    This is a Test
-                </div>
-            </Cursor>
+function App() {
+  return (
+    <div>
+      <Cursor imageIcon={image} size={40}>
+        <div
+          style={{
+            height: "100px",
+            backgroundColor: "blue",
+          }}
+        >
+          This is a Test
         </div>
-    );
+      </Cursor>
+    </div>
+  );
 }
-
 ```
 
 ## Props
